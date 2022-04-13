@@ -1,16 +1,8 @@
+Counter App using Mobx -built in Flutter💙
+![01](https://user-images.githubusercontent.com/70325196/163222133-d932251e-ebb7-43c5-a8fc-ef7aa4f40c64.PNG)
+![02](https://user-images.githubusercontent.com/70325196/163222140-4a998429-4cde-4bd3-a5df-553a6ebba707.PNG)
+![03](https://user-images.githubusercontent.com/70325196/163222265-81c76927-c725-4666-adea-3a267ba28e59.PNG)
+
+
 # counter_app_using_mobx
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+#flutter #mobx #statemanagement
