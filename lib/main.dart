@@ -2,9 +2,21 @@
 
 import 'package:counter_app_using_mobx/FeatureCounter/Presentation/counter_screen.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_mobx/flutter_mobx.dart';
+import 'package:provider/provider.dart';
+import 'FeatureCounter/Presentation/Model/counter_model.dart';
+
+// void main() {
+//   runApp(
+//     const MyApp());
+// }
 
 void main() {
-  runApp(const MyApp());
+  runApp(MultiProvider(providers: [
+    Provider<CounterModelStore>(
+      create: (_) => CounterModelStore(),
+    )
+  ], child: MyApp()));
 }
 
 class MyApp extends StatelessWidget {
@@ -12,8 +24,14 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: CounterScreen(),
+    return Observer(
+      builder: (context){
+        return MaterialApp(
+        home: CounterScreen(),
+      );
+      }
     );
   }
 }
+
+
